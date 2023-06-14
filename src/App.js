@@ -1,17 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import News from "./data/news.json";
-
+import NewsReader from "./news-reader/news";
 function App() {
-  console.log(News);
   return (
     <div>
-      {News.map((item) => (
-        <div>
-          <h1>{item.Title}</h1>
-          <h3>{item.Content}</h3>
-        </div>
-      ))}
+      <NewsReader />
     </div>
   );
 }
