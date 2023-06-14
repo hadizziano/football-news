@@ -1,0 +1,14 @@
+[
+  {
+    "Title": "The first news",
+    "Content": "it is only a test message to see if our json file works well"
+  },
+  {
+    "Title": "The second news",
+    "Content": "and it is the second to figure out if json file works well too with an"
+  },
+  {
+    "Title": "The tirth news",
+    "Content": "json works properly, CONGRATULATIONS!!!"
+  }
+]
