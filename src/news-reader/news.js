@@ -1,10 +1,10 @@
 import News from "../data/news.json";
-import image from "../data/images/1.jpg";
+import "./news.css";
 const NewsReader = () => {
   return (
-    <div>
+    <div className="flex-container">
       {News.map((item) => (
-        <div>
+        <div className="news-container">
           <h1>{item.Title}</h1>
           <img width="300px" src={item.image} />
           <h5>{item.Content}</h5>

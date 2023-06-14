@@ -1,0 +1,10 @@
+.mainheader {
+  background-color: black;
+  height: 350px;
+  color: white;
+  background-image: url("../../public/images/header.jpg");
+}
+.search {
+  margin-left: 5%;
+  margin-top: 5%;
+}
