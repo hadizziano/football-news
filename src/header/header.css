@@ -1,10 +1,51 @@
 .mainheader {
   background-color: black;
-  height: 350px;
+  height: 500px;
   color: white;
   background-image: url("../../public/images/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .search {
-  margin-left: 5%;
+  position: absolute;
+  right: 2%;
+  width: 20%;
+  top: 2%;
+}
+
+.animatedtext {
+  position: absolute;
+  margin-left: 20%;
   margin-top: 5%;
+  font-size: 20px;
+  font-weight: 900;
+  animation: textanimation;
+  animation-duration: 5s;
+}
+.subanimatedtext {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 20%;
+  font-size: 20px;
+  font-weight: 100;
+  animation: subtextanimation;
+  animation-duration: 7s;
+}
+@keyframes textanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes subtextanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
