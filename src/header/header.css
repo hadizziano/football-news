@@ -9,6 +9,9 @@
 }
 .search {
   position: absolute;
+  border-radius: 10px;
+  padding: 15px;
+  height: 30px;
   right: 2%;
   width: 20%;
   top: 2%;

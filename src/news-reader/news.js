@@ -6,7 +6,7 @@ const NewsReader = () => {
       {News.map((item) => (
         <div className="news-container">
           <h1>{item.Title}</h1>
-          <img width="300px" src={item.image} />
+          <img className="newsimage" width="300px" src={item.image} />
           <h5>{item.Content}</h5>
         </div>
       ))}
